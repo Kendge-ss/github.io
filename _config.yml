@@ -1,0 +1,16 @@
+title: "Lab Website"
+url: ""            # later set production URL
+baseurl: ""        # leave blank
+lang: ja
+languages: ["ja", "en"]
+default_lang: ja
+
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-polyglot
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "vendor", ".github"]
